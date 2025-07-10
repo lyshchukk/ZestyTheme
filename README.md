@@ -1,6 +1,6 @@
 # ZestyTheme <!-- omit in toc -->
 
-A fork with some tweaks and personal customizations.
+A fork of a fork with some tweaks  and personal customizations.
 
 A minimal and elegant theme for Jellyfin based/inspired by [Ultrachromic](https://github.com/CTalvio/Ultrachromic), [Glassmorphism](https://github.com/alexyle/jellyfin-theme), [Scyfin](https://github.com/loof2736/scyfin) & [JellyTheme](https://github.com/alexyle/jellyfin-theme).
 
@@ -8,7 +8,7 @@ Compatible with 10.9.x!
 
 Notes:
 
- You must enable Backdrops on *every* device you plan to use this on. For this I use [JellyTweaks](https://github.com/gaam24/JellyTweaks), to force it on every device (use under your own discretion).
+ You **MUST ENABLE BACKDROPS** on *every* device you plan to use this on. For this I use [JellyTweaks](https://github.com/gaam24/JellyTweaks), to force it on every device (use under your own discretion).
 
  Theme is still **WIP**, and may look broken in some areas.
 
