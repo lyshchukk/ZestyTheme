@@ -138,9 +138,12 @@
 }
 
 /* hides trailes tab */
+ /*
 button.emby-tab-button:nth-child(3) {
-  display: none;
+    display: none;
 }
+*/
+
 
 /* header transparent */
 
