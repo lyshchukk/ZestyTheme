@@ -288,11 +288,10 @@ a.overview-expand.emby-button {
   margin-bottom: 0.3vh;
 }
 
-/* --- FONT TEST --- */
 .detailSectionContent .detail-clamp-text,
 .detailSectionContent .overview {
-    font-weight: normal;
-    font-family: Arial, sans-serif !important; /* Changed for testing */
+    font-weight: normal; /* Changed from bold */
+    font-family: 'Montserrat', sans-serif !important; /* Add this for the new font style */
     font-size: 125% !important;
     margin-top: 0.4em;
 }
