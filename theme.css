@@ -283,7 +283,7 @@ a.overview-expand.emby-button {
 
 /* makes description and tagline bold */
 .detailSectionContent .tagline {
-  font-weight: normal;
+  font-weight: bold;
   font-size: 125% !important;
   margin-bottom: 0.3vh;
 }
