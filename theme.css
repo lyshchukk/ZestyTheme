@@ -43,7 +43,7 @@ body, h1, h2, h3, h4 {
 /*  ###### Desktop Layout ##### */
 
 .layout-desktop .detailLogo {
-  left: 5%;
+  left: 2.5%;
   background-position: left;
 }
 
@@ -100,7 +100,7 @@ body, h1, h2, h3, h4 {
 
 .layout-desktop .detailPagePrimaryContainer,
 .layout-desktop .detailPageContent {
-  padding-left: 5%;
+  padding-left: 3%;
 }
 
 .layout-desktop .detailPagePrimaryContent {
@@ -111,7 +111,7 @@ body, h1, h2, h3, h4 {
 .layout-desktop .detailPagePrimaryContainer {
   display: inline-table;
   z-index: 2;
-  left: 5%;
+  left: 3%;
 }
 
 .layout-desktop .detailPageSecondaryContainer {
@@ -278,7 +278,7 @@ a.overview-expand.emby-button {
 /* Add padding to description*/
 .layout-desktop .detailSectionContent {
  /*   margin-top: 1.25vw !important; */
-    padding: 0vw 0vw 0.25vw 1vw !important;
+    padding: 0vw 0vw 0.25vw 0vw !important;
 }
 
 /* makes description and tagline bold */
