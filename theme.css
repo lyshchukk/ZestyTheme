@@ -288,11 +288,13 @@ a.overview-expand.emby-button {
   margin-bottom: 0.3vh;
 }
 
-.detailSectionContent .detail-clamp-text, .detailSectionContent .overview {
-  font-weight: normal;
-  font-size: 125% !important;
-  margin-top: 0.4em;
-  font-family: 'Montserrat', sans-serif !important; /* <--- ADDed THIS LINE */
+/* --- FONT TEST --- */
+.detailSectionContent .detail-clamp-text,
+.detailSectionContent .overview {
+    font-weight: normal;
+    font-family: Arial, sans-serif !important; /* Changed for testing */
+    font-size: 125% !important;
+    margin-top: 0.4em;
 }
 
 /* Rounded left drawer buttons */
