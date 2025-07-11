@@ -1,10 +1,14 @@
 # ZestyTheme <!-- omit in toc -->
 
-A fork of a fork with some tweaks  and personal customizations.
+A fork of a fork with some tweaks and personal customizations.
 
 A minimal and elegant theme for Jellyfin based/inspired by [Ultrachromic](https://github.com/CTalvio/Ultrachromic), [Glassmorphism](https://github.com/alexyle/jellyfin-theme), [Scyfin](https://github.com/loof2736/scyfin) & [JellyTheme](https://github.com/alexyle/jellyfin-theme).
 
 Compatible with 10.9.x!
+## Installing
+
+To add the theme to Jellyfin, copy the following line to Dashboard > General > Custom CSS:
+@import url('https://cdn.jsdelivr.net/gh/lyshchukk/ZestyTheme@main/theme.css');
 
 Notes:
 
