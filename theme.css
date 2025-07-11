@@ -289,7 +289,7 @@ a.overview-expand.emby-button {
 }
 
 .detailSectionContent .detail-clamp-text, .detailSectionContent .overview {
-  font-weight: bold;
+  font-weight: normal;
   font-size: 125% !important;
   margin-top: 0.4em;
   font-family: 'Montserrat', sans-serif !important; /* <--- ADDed THIS LINE */
