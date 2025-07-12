@@ -1,11 +1,14 @@
-/* Electric cyan color scheme */
+/* Blue color scheme */
 
-:root {--accent: 187, 241, 221;}          /* BBF1DD */
-:root {--accent-off: 107, 138, 127;}      /* 6B8A7F */
-:root {--dark: 27, 36, 33;}               /* 1B2421 */   /* used for some details where a color too dark or too light wouldn't be ideal*/
-:root {--darkest: 21, 28, 25;}            /* 151C19 */   /* used for field's bg, text color when accent/accent-off becomes the bg color, etc */
-:root {--dark-highlight: 64, 83, 76;}     /* 40534C */   /* lighter than dark, used for dark highlights. BG in login page, etc */
-:root {--dark-apparent: 32, 41, 37;}      /* 202925 */   /* Only used in mobile layout. It is the color of the gradient over the backdrop image. must be its own value bc the color of the background color is the result of overlays. so just use a color picker on the background color in settings and put the value here */
+:root {--accent: 189, 230, 251;}         /* #BDE6FB */
+:root {--accent-off: 111, 130, 138;}     /* #6F828A */
+:root {--dark: 30, 37, 41;}              /* #1E2529 */
+:root {--darkest: 23, 29, 32;}           /* #171D20 */
+:root {--dark-highlight: 59, 73, 77;}    /* #3B494D */
+:root {--dark-apparent: 32, 39, 42;}     /* #20272A */
+
+
+ /* Only used in mobile layout. It is the color of the gradient over the backdrop image. must be its own value bc the color of the background color is the result of overlays. so just use a color picker on the background color in settings and put the value here */
 
 :root {--white: 243, 242, 243;}           /* F3F2F3 */   /* used for the BG of the play button */
 :root {--white-off: 207, 221, 233;}       /* CFDDE9 */   /* used for the BG of the AppleTV-esque bar */
@@ -1493,8 +1496,8 @@ progress {
 /* set login wallpaper */
 
 #loginPage {
-  background: url(https://cdn.jsdelivr.net/gh/J0nan/ZestyTheme@main/images/login-wallpapers/pattern-default.png) !important;  /* previously https://i.imgur.com/NzrSCuv.png   original   https://i.imgur.com/T4zHTDI.jpeg */
-  background-size: cover !important;
+  background: url(https://cdn.jsdelivr.net/gh/J0nan/ZestyTheme@main/images/login-wallpapers/pattern-blue.png) !important;
+  background-size: cover !important; /* Keep this line for proper sizing */
 }
 
 /* margin to Jellyfin logo */
