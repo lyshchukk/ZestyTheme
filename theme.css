@@ -64,6 +64,30 @@ body, h1, h2, h3, h4 {
   position: relative;
 }
 
+/* --- Custom rule for Fullscreen Video Backdrop --- */
+
+/* This targets the video element directly for the backdrop */
+video {
+  object-fit: cover !important;
+  width: 100% !important;
+  height: 100% !important;
+  /* Add these to ensure it always covers the full area */
+  position: absolute !important;
+  top: 0 !important;
+  left: 0 !important;
+  right: 0 !important;
+  bottom: 0 !important;
+}
+
+/* Ensure the main backdrop container also forces cover */
+.layout-desktop .itemBackdrop {
+  background-size: cover !important; /* Adding !important here for extra certainty */
+  height: 100vh !important; /* Adding !important for extra certainty */
+  width: 100vw !important; /* Make sure it takes full viewport width */
+  overflow: hidden !important; /* Hide any overflow if content stretches beyond */
+}
+/* ----------------------------------------------- */
+
 .layout-desktop .detailPageWrapperContainer {
   margin-top: -71vh;
   /* inicial: 73 */
